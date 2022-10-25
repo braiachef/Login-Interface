@@ -1,0 +1,236 @@
+* {
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+body * {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.full-main-login {
+  background: linear-gradient(90deg, rgb(101, 198, 255), rgb(0, 27, 181));
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-login {
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.578);
+  width: 65vw;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-login {
+  background-image: url(./assets/left-login-background.png);
+  background-position: 1000px 200px;
+  width: 50vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.left-login h1 {
+  color: #fff;
+}
+
+.left-login p {
+  color: #fff;
+}
+
+.btn-signup {
+  width: 15%;
+  padding: 12px 0;
+  margin: 35px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 2px;
+  color: #fff;
+  background: linear-gradient(90deg, rgb(0, 5, 154), rgb(0, 4, 255));
+  cursor: pointer;
+  box-shadow: 0px 10px 40px -12px #00039b;
+}
+
+.right-login {
+  background: #fff;
+  width: 50vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-login {
+  width: 70%;
+  height: 55%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 15px 45px;
+  background: rgb(228, 228, 228);
+  border-radius: 15px;
+  box-shadow: 0px 10px 40px #00000030;
+}
+
+.card-login > h1 {
+  color: rgb(75, 75, 75);
+  font-weight: 800;
+  margin: 30px 0;
+}
+
+.textfield {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 12px 0px;
+}
+
+.textfield > input {
+  opacity: 0.5;
+  font-style: italic;
+  width: 100%;
+  border: none;
+  border-radius: 6px;
+  padding: 12px;
+  background: #fff;
+  font-size: 13px;
+  box-shadow: 0px 10px 40px #00000030;
+  outline: none;
+  box-sizing: border-box;
+}
+/* STYLE CHECK BOX
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  margin-right: 55%;
+  color: rgb(75, 75, 75);
+}
+
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 2px;
+}
+
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+.container input:checked ~ .checkmark {
+  background-color: gray;
+}
+
+.container .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+*/
+
+.btn-login {
+  width: 100%;
+  padding: 12px 0;
+  margin: 12px 0px;
+  border: none;
+  border-radius: 6px;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 2px;
+  color: #fff;
+  background: linear-gradient(90deg, rgb(0, 5, 154), rgb(0, 4, 255));
+  cursor: pointer;
+  box-shadow: 0px 10px 40px -12px #00039b;
+}
+
+.Sso__divider {
+  justify-content: space-between;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  -webkit-box-pack: justify;
+}
+
+.Sso__dividerLine {
+  opacity: 0.5;
+  border-top: 1px solid rgb(75, 75, 75);
+  width: 40%;
+}
+
+.Sso__dividerText {
+  color: rgb(75, 75, 75);
+  opacity: 0.5;
+}
+
+.social-field {
+  padding: 12px;
+  border-radius: 8px;
+  width: 100%;
+  cursor: pointer;
+  margin-top: 12px;
+}
+
+.social-field a i {
+  margin: 0 0.5rem;
+  width: 15px;
+}
+
+.social-field a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.social-field.twitter {
+  margin: 12px 0;
+  width: 100%;
+  background: linear-gradient(to right, #56a7f2, #468aca);
+}
+
+.social-field.facebook {
+  margin: 12px 0;
+  background: linear-gradient(to right, #1e3c72, #2a5298);
+}
